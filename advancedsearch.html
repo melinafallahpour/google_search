@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="advancedsearch.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Search</title>
+    <link rel="icon" href="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-icon-png-transparent-background-osteopathy-16.png" type="image/icon type">
+
+</head>
+
+<body>
+
+    <a href="index.html" class="homepage"><img src="google_logo.svg" alt="Google Search" class="homepage"></a>
+    <br>
+    <p class="appbar">
+        Advanced Search
+    </p>
+
+    <div class="top">
+
+        <p class="one">
+            Find pages with...
+        </p>
+        <p class="two">
+            To do this in the search box.
+        </p>
+    </div>
+    <br>
+    <br>
+
+    <form action="https://google.com/search" name="f">
+        <div class="field">
+            <figure>
+                <label for="field1">
+                    all these words:
+                </label>
+
+                <div class="flex-container">
+                    <input type="text" name="as_q" id="field" autocomplete="off">
+
+                    <div class="mobile">
+                        Type the important words: <span> tri-colour rat terrier</span></div>
+                </div>
+            </figure>
+        </div>
+        <br>
+        <div class="field">
+            <figure>
+                <label for="field2">
+                    this exact word or phrase:
+                </label>
+
+                <div class="flex-container">
+                    <input type="text" name="as_epq" id="field" autocomplete="off">
+
+                    <div class="mobile">
+                        Put exact words in quotes: <span> "rat terrier"</span></div>
+                </div>
+            </figure>
+        </div>
+        <br>
+        <div class="field">
+            <figure>
+                <label for="field3">
+                    any of these words:
+                </label>
+
+                <div class="flex-container">
+                    <input type="text" name="as_oq" id="field" autocomplete="off">
+
+                    <div class="mobile">
+                        Type OR between all the words you want: <span> miniature OR standard</span></div>
+                </div>
+            </figure>
+        </div>
+        <br>
+        <div class="field">
+            <figure>
+                <label for="field4">
+                    none of these words:
+                </label>
+
+                <div class="flex-container">
+                    <input type="text" name="as_eq" id="field" autocomplete="off">
+
+                    <div class="mobile">
+                        <figcaption class="figcaption">
+                            Put a minus sign just before words that you don't want: <span> -rodent</span>
+                        </figcaption>
+                    </div>
+                </div>
+            </figure>
+        </div>
+        <br>
+        <input type="submit" value="Advanced Search" class="button">
+
+
+
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,171 @@
+body {
+    margin-top: 20px;
+    font-weight: inherit;
+    font-style: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+
+img {
+    width: 74px;
+    height: 24px;
+    margin-left: 20px;
+}
+
+.appbar {
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px 40px 35px;
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 25px;
+}
+
+.one {
+    color: #333;
+    font-size: 16px;
+    display: inline;
+    margin-left: 39px;
+}
+
+.two {
+    color: #777;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    display: inline;
+    max-width: 1056px;
+    margin-left: 40%;
+    margin-right: 100px;
+}
+
+label {
+    color: #222;
+    font: 13px arial, sans-serif;
+    display: inline-block;
+    width: 160px;
+    margin-bottom: 22px;
+}
+
+input {
+    padding: 1px 8px;
+    background-color: #fff;
+    border-radius: 2px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    display: inline;
+    text-align: start;
+    appearance: auto;
+    height: 25px;
+    min-width: 167px;
+    vertical-align: middle;
+    width: 40%;
+    max-width: 572px;
+}
+
+figure {
+    vertical-align: middle;
+    color: #555;
+    font-size: 11px;
+    display: inline
+}
+
+.mobile {
+    padding-left: 5px;
+    margin-left: 11px;
+    margin-bottom: 8px;
+    vertical-align: middle;
+    display: inline;
+    position: relative;
+}
+
+@media only screen and (max-width: 1056px) {
+    .mobile {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1056px) {
+    .two {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    .two {
+        position: relative;
+        left: 71px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .two {
+        margin-left: 643px;
+    }
+}
+
+@media only screen and (max-width: 449px) {
+    #field {
+        margin-left: 30px;
+    }
+}
+
+@media only screen and (max-width: 449px) {
+    .one {
+        margin-left: 30px;
+    }
+}
+
+@media only screen and (max-width: 449px) {
+    label {
+        margin-bottom: 20px;
+        margin-top: 20px;
+        margin-left: -8px;
+    }
+}
+
+.field {
+    display: inline;
+}
+
+span {
+    font: 11px monospace;
+    color: #666;
+}
+
+div {
+    display: inline;
+}
+
+.button {
+    all: unset;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff;
+    border-radius: 2px;
+    cursor: default;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    height: 30px;
+    width: 120px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    position: sticky;
+    left: 655px;
+    display: inline-block;
+    margin-right: 200px;
+}
+
+.figcaption {
+    display: inline;
+    inline-size: 70px;
+}
+
+input[type=submit]:hover {
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.8);
+}
